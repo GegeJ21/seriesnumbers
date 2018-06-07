@@ -1,0 +1,430 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fi",
+				"fibonacci"
+			],
+			[
+				"add",
+				"add_argument"
+			],
+			[
+				"multiply",
+				"multiply"
+			],
+			[
+				"series",
+				"seriestype"
+			],
+			[
+				"parse",
+				"parser_fib"
+			],
+			[
+				"add_",
+				"add_argument"
+			],
+			[
+				"a",
+				"add_argument"
+			],
+			[
+				"w",
+				"webbrowser"
+			],
+			[
+				"off",
+				"off"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "seriesnumbers/fibonacci.py",
+			"settings":
+			{
+				"buffer_size": 763,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 122,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "run_fibo.py",
+			"settings":
+			{
+				"buffer_size": 51,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "\n\n\ndef pad(n):\n  seq = []\n  for x in range(n):\n    if x == 0 or x == 1 or x == 2:\n      seq.append(1)\n    else:\n      seq.append(seq[x-2] + seq[x-3])\n  return seq\n\n  \ndef pell(n):\n\tseq = []\n\tfor x in range(n-1):\n\t\tif n == 0:\n\t\t\treturn 1\n\t\tif n == 1:\n\t\t\treturn 2\n\t\telse:\n\t\t\treturn 2*pell(n-1) + pell(n-2)\n\nprint [pell(x) for x in range(1)]\n\n",
+			"file": "seriesnumbers/pell.py",
+			"file_size": 187,
+			"file_write_time": 131727629049166339,
+			"settings":
+			{
+				"buffer_size": 340,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "import argparse"
+			}
+		},
+		{
+			"contents": "import fibonacci\nimport argparse\nimport pell\n\n\n\ndef main():\n    parser = argparse.ArgumentParser()\n    subparser = parser.add_subparsers(help='sub-options help')\n\n    \n    #arguments for the Fibonacci series\n    \n    parser_fib = subparser.add_parser(\"fib\", help=\"Fibonacci series\")\n    parser_fib.set_defaults(seriestype=\"fib\")\n    parser_fib.add_argument(\"num\", help=\"number of recursions\", type=int)\n    parser_fib.add_argument(\"--offset\", help=\"Start sequence from an offset\", type=int)\n    parser_fib.add_argument(\"--multiply\", help=\"Multiply the sequence\", type=int) \n    parser_fib.add_argument(\"--wiki\", help=\"link to Wikipedia page\", action='store_true')\n    parser_fib.add_argument(\"--draw\", help=\"Draw sequence shell up to\", action=\"store_true\")\n\n    #arguments for the Pell series\n\n    parser_pell = subparser.add_parser(\"pell\", help=\"Pell's series\")\n    parser_pell.set_defaults(seriestype=\"pell\")\n    parser_pell.add_argument(\"--offset\",help=\"Start sequence from offset\",type=int)\n\n    args = parser.parse_args()\n\n    if args.seriestype == \"fib\":\n        result = fibonacci.fib(args.num,args.offset,args.multiply)\n        print result\n        if args.draw == True:\n            fibonacci.draw_fibonacci(result)\n    elif args.seriestype ==\"pell\":\n        print pell.pel()\n\n\n\n\nif __name__ =='__main__':\n    main()",
+			"file": "seriesnumbers/controls.py",
+			"file_size": 1382,
+			"file_write_time": 131727630078350197,
+			"settings":
+			{
+				"buffer_size": 1324,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/eugenio/Desktop/Python/seriesnumbers",
+		"/C/Users/eugenio/Desktop/Python/seriesnumbers/seriesnumbers"
+	],
+	"file_history":
+	[
+		"/C/Users/eugenio/Desktop/Python/seriesnumbers/seriesnumbers/controls.py",
+		"/C/Users/eugenio/Desktop/Python/seriesnumbers/run_fibo.py",
+		"/C/Users/eugenio/Desktop/Python/seriesnumbers/seriesnumbers/__init__.py",
+		"/C/Users/eugenio/Desktop/Python/seriesnumbers/seriesnumbers/fibonacci.py",
+		"/C/Users/eugenio/Desktop/Python/seriesnumbers/seriesumers_cl.py",
+		"/C/Users/eugenio/Desktop/Python/seriesnumbers/README.md",
+		"/C/Users/eugenio/Desktop/Python/seriesnumbers/seriesnumbers.sublime-project",
+		"/C/Users/eugenio/Desktop/Python/seriesnumbers/fibonacci.py",
+		"/C/Users/eugenio/Desktop/Fibonacci.py"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			" "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "seriesnumbers/fibonacci.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 763,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								558,
+								558
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 286.4,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "README.md",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 122,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "run_fibo.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 51,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								20,
+								51
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "seriesnumbers/pell.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 340,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								211,
+								211
+							]
+						],
+						"settings":
+						{
+							"auto_name": "import argparse",
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "seriesnumbers/controls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1324,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1258,
+								1258
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 327.2,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 146.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "seriesnumbers.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 50.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
