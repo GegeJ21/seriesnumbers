@@ -1,0 +1,851 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"get",
+				"getNewImage"
+			],
+			[
+				"upa",
+				"updatePixelColor"
+			],
+			[
+				"to",
+				"toRgb"
+			],
+			[
+				"colo",
+				"__color_picker"
+			],
+			[
+				"sele",
+				"selected_color"
+			],
+			[
+				"up",
+				"updatePixelColor"
+			],
+			[
+				"pi",
+				"pixel"
+			],
+			[
+				"gra",
+				"gradient_image"
+			],
+			[
+				"sel",
+				"selected_color"
+			],
+			[
+				"Qt",
+				"QtGui"
+			],
+			[
+				"Q",
+				"QPointF"
+			],
+			[
+				"__sel",
+				"__selector_y"
+			],
+			[
+				"pa",
+				"paintEvent"
+			],
+			[
+				"__",
+				"__timer"
+			],
+			[
+				"ap",
+				"apply_button"
+			],
+			[
+				"set",
+				"setEnabled"
+			],
+			[
+				"ge",
+				"get_results"
+			],
+			[
+				"resu",
+				"__result_list"
+			],
+			[
+				"fil",
+				"filename"
+			],
+			[
+				"file",
+				"filename"
+			],
+			[
+				"ex",
+				"export_layout"
+			],
+			[
+				"add",
+				"addRow"
+			],
+			[
+				"sto",
+				"stop_icon"
+			],
+			[
+				"stop",
+				"__stop_button"
+			],
+			[
+				"pla",
+				"play_icon"
+			],
+			[
+				"pado",
+				"PADOVAN_STRING"
+			],
+			[
+				"fib",
+				"FIBONACCI_STRING"
+			],
+			[
+				"run",
+				"run_layout"
+			],
+			[
+				"tu",
+				"turtle_layout"
+			],
+			[
+				"re",
+				"result"
+			],
+			[
+				"__se",
+				"__selector_y"
+			],
+			[
+				"se",
+				"selector_y"
+			],
+			[
+				"dr",
+				"drawEllipse"
+			],
+			[
+				"new",
+				"new_pos"
+			],
+			[
+				"ne",
+				"new_pos"
+			],
+			[
+				"n",
+				"new_pos"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"main",
+				"main_color"
+			],
+			[
+				"appl",
+				"apply_layout"
+			],
+			[
+				"app",
+				"apply_layout"
+			],
+			[
+				"a",
+				"apply_layout"
+			],
+			[
+				"o",
+				"options_layout"
+			],
+			[
+				"Dia",
+				"MyColorPickerDialog"
+			],
+			[
+				"r",
+				"__rainbow_gradient"
+			],
+			[
+				"gr",
+				"__color_gradient"
+			],
+			[
+				"Colo",
+				"ColorPicker"
+			],
+			[
+				"qpo",
+				"QPointF"
+			],
+			[
+				"Qpo",
+				"QPointF"
+			],
+			[
+				"im",
+				"picker_image"
+			],
+			[
+				"dra",
+				"drawRect"
+			],
+			[
+				"fr",
+				"frameGeometry"
+			],
+			[
+				"co",
+				"color_selected"
+			],
+			[
+				"Col",
+				"ColorPicker"
+			],
+			[
+				"pix",
+				"pixel_pos"
+			],
+			[
+				"mouse",
+				"mousePressedEvent"
+			],
+			[
+				"expo",
+				"__export_button"
+			],
+			[
+				"QP",
+				"QPointF"
+			],
+			[
+				"res",
+				"__result_list"
+			],
+			[
+				"gee",
+				"__generate_button"
+			],
+			[
+				"bu",
+				"__stop_button"
+			],
+			[
+				"si",
+				"SIGNAL"
+			],
+			[
+				"pr",
+				"__progress_bar"
+			],
+			[
+				"st",
+				"__stop_button"
+			],
+			[
+				"Qp",
+				"QPushButton"
+			],
+			[
+				"mu",
+				"__multiply"
+			],
+			[
+				"__name",
+				"__name"
+			],
+			[
+				"fin",
+				"fibonacci_string"
+			],
+			[
+				"sum",
+				"sum_icon"
+			],
+			[
+				"she",
+				"shell_icon"
+			],
+			[
+				"in",
+				"int"
+			],
+			[
+				"off",
+				"__offset"
+			],
+			[
+				"thi",
+				"this_recursions"
+			],
+			[
+				"fibo",
+				"fibonacci"
+			],
+			[
+				"fi",
+				"fibonacci_string"
+			],
+			[
+				"Gene",
+				"Generate_Thread"
+			],
+			[
+				"ser",
+				"__series_picker"
+			],
+			[
+				"th",
+				"this_multiply"
+			],
+			[
+				"seri",
+				"series_name"
+			],
+			[
+				"G",
+				"Generate_Thread"
+			],
+			[
+				"it",
+				"itemText"
+			],
+			[
+				"spli",
+				"split_string"
+			],
+			[
+				"c",
+				"count"
+			],
+			[
+				"tur",
+				"turtle_runner"
+			],
+			[
+				"top_",
+				"top_layout"
+			],
+			[
+				"turtle",
+				"turtle_layout"
+			],
+			[
+				"q",
+				"QPushButton"
+			],
+			[
+				"generate",
+				"generate_series"
+			],
+			[
+				"top",
+				"top_layout"
+			],
+			[
+				"rec",
+				"recursion_spinner"
+			],
+			[
+				"s",
+				"series_picker"
+			],
+			[
+				"wri",
+				"write_txt"
+			],
+			[
+				"multiply",
+				"multiply"
+			],
+			[
+				"series",
+				"seriestype"
+			],
+			[
+				"parse",
+				"parser_fib"
+			],
+			[
+				"add_",
+				"add_argument"
+			],
+			[
+				"w",
+				"webbrowser"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "import time\n\n\ndef fib(n, off, multiply):\n    a = 0\n    b = 1\n    for i in range(n + off):\n        a, b = b, a+b\n        if i > off-1:\n            time.sleep(0.5)\n            yield a*multiply\n        \n\ndef draw_fibonacci(seq, pen_color, background_color):\n    import turtle\n    pointer = turtle.Turtle()\n    pointer.color()\n    wn = turtle.Screen()\n    wn.bgcolor((background_color))\n\n    for x in range(6):\n        pointer.left(90)\n        pointer.forward(seq[0])\n\n    for n in range(len(seq)-1):\n        pointer.speed(5)\n        pointer.left(90)\n        pointer.forward(seq[n+1] + seq[n])\n        pointer.left(90)\n        pointer.forward(seq[n+1])\n        pointer.left(90)\n        pointer.forward(seq[n+1] + seq[n]) \n    input()\n",
+			"file": "seriesnumbers/fibonacci.py",
+			"file_size": 786,
+			"file_write_time": 131744995211535591,
+			"settings":
+			{
+				"buffer_size": 730,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 93,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "seriesnumbers/python.gitignore",
+			"settings":
+			{
+				"buffer_size": 1202,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "# Byte-compiled / optimized / DLL files"
+			}
+		},
+		{
+			"contents": "\nfrom PySide import QtGui\nfrom PySide import QtCore\nimport sys\n\nclass MyColorPickerDialog(QtGui.QDialog):\n\n    def __init__(self):\n\n        super(MyColorPickerDialog, self).__init__()\n\n        self.background_color = QtGui.QColor(255,255,255)\n        self.pen_color = QtGui.QColor(255,255,255)\n\n        general_layout = QtGui.QVBoxLayout()\n\n        self.__rainbow_gradient = ColorPicker()\n        self.__color_gradient = ColorGradient(self.__rainbow_gradient)\n        colors_layout = QtGui.QHBoxLayout()\n        colors_layout.addWidget(self.__rainbow_gradient, stretch = 1)\n        colors_layout.addWidget(self.__color_gradient, stretch = 5)\n\n        options_layout = QtGui.QFormLayout()\n        options_layout.setSpacing(0)\n        self.background_button = QtGui.QPushButton()\n        self.background_button.clicked.connect(self.update_background)\n        self.pen_button = QtGui.QPushButton()\n        self.pen_button.clicked.connect(self.update_pen)\n        options_layout.addRow(\"Background\", self.background_button)\n        options_layout.addRow(\"Line\", self.pen_button)\n         \n        apply_layout = QtGui.QHBoxLayout()\n        apply_layout.addSpacing(150)\n        self.apply_button = QtGui.QPushButton(\"Apply\", self)\n        self.apply_button.clicked.connect(self.close)\n        apply_layout.addWidget(self.apply_button)\n        apply_layout.addSpacing(150)\n\n        general_layout.addLayout(colors_layout, stretch = 5)\n        general_layout.addLayout(options_layout, stretch = 1)\n        general_layout.addLayout(apply_layout, stretch = 1)\n\n        self.setLayout(general_layout)\n        self.setGeometry(60,70,500,400)\n\n    def update_background(self):\n        new_color = self.__color_gradient.selected_color\n       \tr = new_color.toRgb().red()\n       \tg = new_color.toRgb().green()\n       \tb = new_color.toRgb().blue()\n       \tnew_style = \"background-color:rgb({},{},{})\".format(r,g,b)\n       \tself.background_color = QtGui.QColor(r, g, b)\n       \tself.background_button.setStyleSheet(new_style)\n\n    def update_pen(self):\n        new_color = self.__color_gradient.selected_color\n       \tr = new_color.toRgb().red()\n       \tg = new_color.toRgb().green()\n       \tb = new_color.toRgb().blue()\n       \tnew_style = \"background-color:rgb({},{},{})\".format(r,g,b)\n       \tself.pen_color = QtGui.QColor(r, g, b)\n       \tself.pen_button.setStyleSheet(new_style)\n\n\nclass ColorGradient(QtGui.QWidget):\n\n    def __init__(self,color_picker):\n        super(ColorGradient,self).__init__()\n\n        self.color_picker = color_picker\n        self.color_picker.color_changed.connect(self.updateColor)\n        self.gradient_image = None\n        self.main_color = QtGui.QColor(255, 255, 255)\n        self.__selector_y = 0.5\n        self.__selector_x = 0.5\n        self.selected_color = QtGui.QColor(0, 0, 0)\n        self.getNewImage()\n        self.updateColor(color_picker.color_selected)\n\n    def getNewImage(self):\n        self.gradient_image = QtGui.QPixmap().grabWidget(self).toImage()\n\n    def updateColor(self,color):\n        self.main_color = color\n        self.getNewImage()\n        self.updatePixelColor()\n        self.repaint()\n\n    def paintEvent(self, event):\n        qp = QtGui.QPainter()\n        qp.begin(self)\n        self.drawGradient(event,qp)\n        qp.end()\n\n    def drawGradient(self,event,qp):\n        width = self.frameGeometry().width()\n        height = self.frameGeometry().height()\n        gradient = QtGui.QLinearGradient(QtCore.QPointF(width/2,height/9),QtCore.QPointF(width/2,8*height/9))\n        gradient.setColorAt(0,QtGui.QColor(0,0,0))\n        gradient.setColorAt(0.5,self.main_color)\n        gradient.setColorAt(1,QtGui.QColor(255,255,255))\n        gradient.InterpolationMode(QtGui.QGradient.ComponentInterpolation)\n\n        qp.setBrush(gradient)\n        qp.drawRect(width/10,height/9,8*width/10,7*height/9)\n        qp.drawEllipse(self.__selector_x*9*width/10 - 10, self.__selector_y*8*height/9 - 10, 20, 20)\n    \n    def mouseReleaseEvent(self, event):\n        width = self.frameGeometry().width()\n        height = self.frameGeometry().height()\n        cursor = QtGui.QCursor()\n        new_pos = self.mapFromGlobal(cursor.pos())\n        x = new_pos.x()\n        y = new_pos.y()\n        if x < 9*width/10 and x > width/10 and y < 8*height/9 and y > height/9:\n        \tself.__selector_y = y/(8*height/9.0)\n        \tself.__selector_x = x/(9*width/10.0)\n        self.updatePixelColor()\n        self.repaint()\n\n    def updatePixelColor(self):\n        height = self.frameGeometry().height()\n        width = self.frameGeometry().width()\n        pixel_pos = QtCore.QPoint(self.__selector_x*9*width/10, self.__selector_y*8*height/9)\n        self.selected_color = QtGui.QColor(self.gradient_image.pixel(pixel_pos))\n\n\n\nclass ColorPicker(QtGui.QWidget):\n\n    color_changed = QtCore.Signal(QtGui.QColor)\n\n    def __init__(self):\n        super(ColorPicker,self).__init__()\n\n        self.__selector_y = 0.1\n        self.picker_image = None\n        self.color_selected = QtGui.QColor(255,0,0)\n\n        self.__timer = QtCore.QTimer()\n        self.__timer.timeout.connect(self.getNewImage)\n\n    def paintEvent(self,event):\n        qp = QtGui.QPainter()\n        qp.begin(self)\n        self.drawColorPicker(event,qp)\n        qp.end()\n\n    def drawColorPicker(self,event,qp):\n        width = self.frameGeometry().width()\n        height = self.frameGeometry().height()\n        gradient = QtGui.QLinearGradient(QtCore.QPointF(width/2,height/9), QtCore.QPointF(width/2,8*height/9))\n        gradient.InterpolationMode(QtGui.QGradient.ComponentInterpolation)\n        gradient.setColorAt(0,    QtGui.QColor(255, 0,   0))\n        gradient.setColorAt(0.16, QtGui.QColor(255, 255, 0))\n        gradient.setColorAt(0.32, QtGui.QColor(0,   255, 0))\n        gradient.setColorAt(0.48, QtGui.QColor(0,   255, 255))\n        gradient.setColorAt(0.64, QtGui.QColor(0,   0,   255))\n        gradient.setColorAt(0.80, QtGui.QColor(255, 0,   255))\n        gradient.setColorAt(1,    QtGui.QColor(255, 0,   0))\n     \n        qp.setBrush(gradient)\n        qp.drawRect(width/3, height/9, width/3, 7*height/9)\n        qp.drawEllipse(width/3,(self.__selector_y*8*height/9 - width/6), width/3, width/3)\n\n    def mouseReleaseEvent(self, event):\n        width = self.frameGeometry().width()\n        height = self.frameGeometry().height()\n        cursor = QtGui.QCursor()\n        new_pos = self.mapFromGlobal(cursor.pos())\n        x = new_pos.x()\n        y = new_pos.y()\n        if x < 2*width/3 and x > width/3 and y > height/9 and y < 8*height/9:\n            self.__selector_y = (y)/(8*height/9.0)\n        print self.__selector_y\n        self.updatePixelColor()\n        self.repaint()\n\n    def resizeEvent(self,event):\n        self.__timer.start(500)\n    \n    def updatePixelColor(self):\n        height = self.frameGeometry().height()\n        width = self.frameGeometry().width()\n        pixel_pos = QtCore.QPoint(width/2, self.__selector_y*8*height/9)\n\n        self.color_selected = QtGui.QColor(self.picker_image.pixel(pixel_pos))\n        self.color_changed.emit(self.color_selected)\n\n    def getNewImage(self):\n        self.picker_image = QtGui.QPixmap().grabWidget(self).toImage()\n\n    def RegisterSignal(self,obj):\n        self.color_changed.connect(obj)\n\n\ndef main():\n    app = QtGui.QApplication(sys.argv)\n    dialog = MyColorPickerDialog()\n    dialog.show()\n\n\n    sys.exit(app.exec_())\n\nif __name__ == '__main__':\n    main()",
+			"file": "seriesnumbers/myColorPicker.py",
+			"file_size": 7784,
+			"file_write_time": 131744981147093276,
+			"settings":
+			{
+				"buffer_size": 7409,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "seriesnumbers/output.py",
+			"settings":
+			{
+				"buffer_size": 909,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"col",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"colo",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Code Folding: Fold Tag Attributes"
+			],
+			[
+				"Snippet: ",
+				"Snippet: If Condition"
+			],
+			[
+				"package controll in",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/eugenio/Desktop/Python/seriesnumbers",
+		"/C/Users/eugenio/Desktop/Python/seriesnumbers/seriesnumbers"
+	],
+	"file_history":
+	[
+		"/C/Users/eugenio/Desktop/Python/seriesnumbers/seriesnumbers/gui_controls.py",
+		"/C/Users/eugenio/Desktop/Python/seriesnumbers/seriesnumbers/prove.py",
+		"/C/Users/eugenio/Desktop/Python/seriesnumbers/seriesnumbers/myColorPicker.py",
+		"/C/Users/eugenio/Desktop/Python/seriesnumbers/seriesnumbers/color.py",
+		"/C/Users/eugenio/Desktop/Python/seriesnumbers/seriesnumbers/myColorPicker",
+		"/C/Users/eugenio/Desktop/Python/seriesnumbers/seriesnumbers/doors.py",
+		"/C/Users/eugenio/Desktop/Python/seriesnumbers/seriesnumbers/fibonacci.py",
+		"/C/Users/eugenio/Desktop/Python/seriesnumbers/seriesnumbers_cl.py",
+		"/C/Users/eugenio/Desktop/Python/seriesnumbers/seriesnumbers/output.py",
+		"/C/Users/eugenio/Desktop/Python/seriesnumbers/seriesnumbers/padovan.py",
+		"/C/Users/eugenio/Desktop/Python/seriesnumbers/README.md",
+		"/C/Users/eugenio/Desktop/Python/seriesnumbers/seriesnumbers/controls.py",
+		"/C/Users/eugenio/Desktop/Python/seriesnumbers/run_fibo.py",
+		"/C/Users/eugenio/Desktop/Python/seriesnumbers/seriesnumbers/__init__.py",
+		"/C/Users/eugenio/Desktop/Python/seriesnumbers/seriesumers_cl.py",
+		"/C/Users/eugenio/Desktop/Python/seriesnumbers/seriesnumbers.sublime-project",
+		"/C/Users/eugenio/Desktop/Python/seriesnumbers/fibonacci.py",
+		"/C/Users/eugenio/Desktop/Fibonacci.py"
+	],
+	"find":
+	{
+		"height": 53.6
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"__pen_color",
+			"__background_color",
+			"__color_selected",
+			"timer",
+			"color_selected",
+			"count",
+			"sum_icon",
+			"stop_icon",
+			"play_icon",
+			"shell_icon",
+			"selector_y",
+			"gradient_image",
+			"\t",
+			"paintEvent",
+			"picker_image",
+			"\t",
+			" ",
+			"counter",
+			"QPointF",
+			"padovan_string",
+			"fibonacci_string",
+			"\t",
+			"offset_spinner",
+			" "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "seriesnumbers/fibonacci.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 730,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								321,
+								321
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 93,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								93,
+								93
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "seriesnumbers/python.gitignore",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1202,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1202,
+								1202
+							]
+						],
+						"settings":
+						{
+							"auto_name": "# Byte-compiled / optimized / DLL files",
+							"syntax": "Packages/Git Formats/Git Ignore.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"file": "seriesnumbers/play.png",
+					"semi_transient": false,
+					"stack_index": 2,
+					"type": "image"
+				},
+				{
+					"buffer": 3,
+					"file": "seriesnumbers/myColorPicker.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7409,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3836,
+								3836
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "seriesnumbers/output.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 909,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								248,
+								248
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 52.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 160.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "seriesnumbers.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 145.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
