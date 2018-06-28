@@ -1,5 +1,9 @@
 import webbrowser
 import argparse
+import sys
+
+from seriesnumbers import padovan
+from seriesnumbers import fibonacci
 
 
 fibonacci_URL = "https://en.wikipedia.org/wiki/Fibonacci_number"
@@ -9,7 +13,6 @@ def do_pad(args):
     pass
 
 def main():
-    import sys
     print sys.path
     parser = argparse.ArgumentParser()
     subparser = parser.add_subparsers(help='sub-options help')
@@ -17,7 +20,7 @@ def main():
     
     #arguments for the Fibonacci series
     
-    parser_fib = subparser.add_parser("fib", help="Fibonacci series")
+    parser_fib = subparser.add_parser("--fib", help="Fibonacci series")
     parser_fib.set_defaults(seriestype="fib")
     parser_fib.add_argument("num", help="Number of recursions", type=int)
     parser_fib.add_argument("-of", "--offset", help="Start sequence from an offset", type=int)
@@ -28,7 +31,7 @@ def main():
 
     #arguments for the Pell series
 
-    parser_pad = subparser.add_parser("pad", help="Padovan series")
+    parser_pad = subparser.add_parser("--pad", help="Padovan series")
     parser_pad.set_defaults(seriestype="pad")
     parser_pad.set_defaults(func=do_pad)
     parser_pad.add_argument("num", help="Number of recursions", type=int)
@@ -40,7 +43,6 @@ def main():
     args = parser.parse_args()
     args.func(args)
     if args.seriestype == "fib":
-        import fibonacci
         result = fibonacci.fib(args.num,args.offset,args.multiply)
         print result
         if args.draw == True:
@@ -51,8 +53,7 @@ def main():
             import output
             output.write_txt(result,args.output)
     elif args.seriestype =="pad":
-        import seriesnumbers.padovan
-        result = seriesnumbers.padovan.pad(args.num,args.multiply)
+        result = padovan.pad(args.num,args.multiply)
         print result
         if args.draw == True:
             padovan.draw_padovan(result)
@@ -61,9 +62,3 @@ def main():
         if args.output is not None:
             import output
             output.write_txt(result,args.output)
-
-
-
-
-if __name__ =='__main__':
-    main()
